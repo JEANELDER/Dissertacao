@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#"
+     xml:base="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato"
+     xmlns:OntoDano="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:OntoDano_CobrancaVexatoria="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#">
+    <owl:Ontology rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato">
+        <owl:imports rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ehAssociadoA -->
+
+    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ehAssociadoA">
+        <owl:inverseOf rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#partiuDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#partiuDe"/>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temNexoCausal -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temNexoCausal"/>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#DanoCivel -->
+
+    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#DanoCivel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ocorreu"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#temEvidenciaEm"/>
+                                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#Documento"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#envolve"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Imagem -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Imagem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#demoraExageradaEnvioCRLVparaTransferencia -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#demoraExageradaEnvioCRLVparaTransferencia">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#TJDFFproc2013"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#Jurisprudência"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#envioCRLVresponsabilidadeDeFinanceira -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#envioCRLVresponsabilidadeDeFinanceira">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#art1Lei11649_08"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lei"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#DescumprimentoContrato -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#DescumprimentoContrato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        <OntoDano:temPósSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#NaoProvidenciarNovoCRLVaposQuitacaoContrato"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ImpedimentoTransferirVeiculoAposVenda -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ImpedimentoTransferirVeiculoAposVenda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#NaoProvidenciarNovoCRLVaposQuitacaoContrato -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#NaoProvidenciarNovoCRLVaposQuitacaoContrato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Omissão"/>
+        <OntoDano:infrige rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#TJDFFproc2013"/>
+        <OntoDano:infrige rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#art1Lei11649_08"/>
+        <OntoDano:temPreSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#DescumprimentoContrato"/>
+        <OntoDano:temPósSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ImpedimentoTransferirVeiculoAposVenda"/>
+        <OntoDano:temPósSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#constrangimentoMoralComComprador"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#TJDFFproc2013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#TJDFFproc2013">
+        <rdf:type rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Imagem"/>
+        <OntoDano:envolve rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#imagemSocial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Teresinha -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Teresinha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Vitima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#art1Lei11649_08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#art1Lei11649_08"/>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#atitudeNegligente -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#atitudeNegligente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Negligencia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ausenciaCRLV -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ausenciaCRLV">
+        <rdf:type rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#Documento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#bancoItau -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#bancoItau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+        <OntoDano:ageCom rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#atitudeNegligente"/>
+        <OntoDano:comete rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#NaoProvidenciarNovoCRLVaposQuitacaoContrato"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#constrangimentoMoralComComprador -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#constrangimentoMoralComComprador">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMoral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#imagemSocial -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#imagemSocial">
+        <rdf:type rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#Imagem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#situacaoRetencaoLiberacaoVeiculo -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#situacaoRetencaoLiberacaoVeiculo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        <OntoDano:envolve rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#imagemSocial"/>
+        <OntoDano:ocorreu rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ImpedimentoTransferirVeiculoAposVenda"/>
+        <OntoDano:ocorreu rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#constrangimentoMoralComComprador"/>
+        <OntoDano:temEvidenciaEm rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#ausenciaCRLV"/>
+        <OntoDano_CobrancaVexatoria:partiuDe rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato#bancoItau"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,1232 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano">
+    <Prefix name="" IRI="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ontodano" IRI="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Impericia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CivelmenteIncapaz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ocorreu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenteSocialColetivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExercicioRegularDeDireito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRepresentanteCivel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indenizacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#evidência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehResponsávelPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehExecutadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#infrige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescricaoNormativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Menor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jurisprudência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temObjetoViolado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPósSituação"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehInfrigidoPor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NexoCausal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#dependenteDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PerigoIminente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehEvidenciaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#define"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temResponsável"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtoIlicitoIndenizavel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Ação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Omissão"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#comete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgentePassivo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ocorrencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resultadoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intrinsica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtoJuridico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CivilmenteCapaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Princípio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temReparacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#envolve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#respondePor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#RelaçãoLegal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoDano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="_CobrancaVexatoria#partiuDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#InsanoMental"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#pertenceA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#DanoCivelIndenizavel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Governo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcaoReparatoria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ageCom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CasoFortuito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temEvidenciaEm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temDuradoura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Dolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#RelaçãoIlícita"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPreSituação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMoral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Doutrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profissional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Relacional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Imprudencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DanoCivel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Vitima"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resulta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteDano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjetoSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sociedade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Parte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#provoca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsávelLegal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resguarda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Circunstancia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LegitimaDefesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehEstabelecidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temOrigem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CNPJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicitoAbsolvido"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehResponsabilidadeDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehDefinidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temNexoCausal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtoLicito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#executa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CPF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjetoFisico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjetoAbstrato"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehAssociadoA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenteFisico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Negligencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ForcaMaior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Culpa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#distinta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cometidoPor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenteInstitucional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMaterial"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CivilmenteCapaz"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NexoCausal"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temPreSituação"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temPósSituação"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Profissional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehResponsabilidadeDe"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#respondePor"/>
+            <Class IRI="#Profissional"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#infrige"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicitoAbsolvido"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#ocorreu"/>
+                    <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+                    <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Vitima"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temPreSituação"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temPósSituação"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CivelmenteIncapaz"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#InsanoMental"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Menor"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#DanoCivelIndenizavel"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#DanoCivel"/>
+            <Class IRI="#NexoCausal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="_CobrancaVexatoria#partiuDe"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#temPreSituação"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoDano"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMaterial"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Relacional"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#media"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ageCom"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#comete"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temDuradoura"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AcaoReparatoria"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgenteFisico"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgenteInstitucional"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgenteSocialColetivo"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtoIlicitoIndenizavel"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtoJuridico"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtoLicito"/>
+        <Class IRI="#AtoJuridico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CasoFortuito"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CivilmenteCapaz"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DanoCivel"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescricaoNormativa"/>
+        <Class IRI="#ObjetoSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documento"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehEvidenciaDe"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indenizacao"/>
+        <Class IRI="#AcaoReparatoria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jurisprudência"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjetoAbstrato"/>
+        <Class IRI="#ObjetoSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjetoFisico"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjetoSocial"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profissional"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sociedade"/>
+        <Class IRI="#AgenteSocialColetivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteDano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteDano"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Parte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgentePassivo"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteDano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteSocial"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+        <Class IRI="#AtoJuridico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicitoAbsolvido"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Ação"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CNPJ"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CPF"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#provoca"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Circunstancia"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CivelmenteIncapaz"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CivelmenteIncapaz"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temResponsável"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+                <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehExecutadoPor"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Culpa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#DanoCivelIndenizavel"/>
+        <Class IRI="#DanoCivel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Dolo"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Doutrina"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPreSituação"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPósSituação"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Circunstancia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExercicioRegularDeDireito"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ForcaMaior"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Governo"/>
+        <Class IRI="#AgenteInstitucional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Impericia"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Culpa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Imprudencia"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Culpa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#InsanoMental"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intrinsica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#pertenceA"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intrinsica"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LegitimaDefesa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lei"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#temEvidenciaEm"/>
+            <Class IRI="#Documento"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMaterial"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMoral"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Menor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Negligencia"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Culpa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+        <Class IRI="#DescricaoNormativa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoDano"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoDano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehAssociadoA"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgentePassivo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehDefinidoPor"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMaterial"/>
+        <Class IRI="#ObjetoFisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+        <Class IRI="#ObjetoAbstrato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehAssociadoA"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Omissão"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Parte"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PerigoIminente"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+        <Class IRI="#AgenteFisico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CPF"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        <Class IRI="#AgenteInstitucional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temRepresentanteCivel"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CNPJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Princípio"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Relacional"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#RelaçãoIlícita"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#RelaçãoLegal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#RelaçãoLegal"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Relacional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+        <Class IRI="#CivilmenteCapaz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsávelLegal"/>
+        <Class IRI="#CivilmenteCapaz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#dependenteDe"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Vitima"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgentePassivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CPF"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AtoIlicitoIndenizavel"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicitoAbsolvido"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Menor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#DanoCivelIndenizavel"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ExcludenteDeResponsabilidade"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Endurant"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Perdurant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#InsanoMental"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ageCom"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#pertenceA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#comete"/>
+        <ObjectProperty IRI="#cometidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehInfrigidoPor"/>
+        <ObjectProperty IRI="#infrige"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehResponsabilidadeDe"/>
+        <ObjectProperty IRI="#respondePor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehResponsávelPor"/>
+        <ObjectProperty IRI="#temResponsável"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#executa"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehExecutadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#resulta"/>
+        <ObjectProperty IRI="#resultadoDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temPreSituação"/>
+        <ObjectProperty IRI="#temPósSituação"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#define"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehDefinidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#provoca"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#temResponsável"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehProvocadoPor"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ageCom"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#comete"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehEstabelecidoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehInfrigidoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehResponsabilidadeDe"/>
+        <Class IRI="#Profissional"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehResponsávelPor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Adulto"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#MentalmenteSaudável"/>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#executa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#infrige"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#resguarda"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#respondePor"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Governo"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temNexoCausal"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Causa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temPreSituação"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temPósSituação"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temRepresentanteCivel"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#define"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#dependenteDe"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Submissa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehDefinidoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehExecutadoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#pertenceA"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaFisica"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ageCom"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Intento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#comete"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehEstabelecidoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Governo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehInfrigidoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehResponsabilidadeDe"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Governo"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#PessoaJuridica"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehResponsávelPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#CivelmenteIncapaz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#executa"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Conduta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#infrige"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#NormativaLegal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resguarda"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#respondePor"/>
+        <Class IRI="#Profissional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temNexoCausal"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Efeito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPreSituação"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPósSituação"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Evento"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temRepresentanteCivel"/>
+        <Class IRI="#CivilmenteCapaz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#define"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Objeto"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#dependenteDe"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Autonoma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehDefinidoPor"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+            <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Parte"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ehExecutadoPor"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Agente"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#pertenceA"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ResponsavelDano"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#temRegistro"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Registro"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#evidência"/>
+        <Class IRI="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

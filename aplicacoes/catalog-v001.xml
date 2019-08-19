@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano" uri="file:/home/jean/Área%20de%20Trabalho/mestrado/ontodano/OntoDano.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1566176354473" name="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria" uri="OntoDano_CobrancaVexatoria.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1566176354473" name="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContrato" uri="OntoDano_DescumprimentoContrato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1566176354473" name="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_DescumprimentoContratoComNegativacao" uri="OntoDano_DescumprimentoContrato&amp;Negativacao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1566176354473" name="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao" uri="OntoDano_Negativacao.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#"
+     xml:base="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao"
+     xmlns:OntoDano="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:OntoDano_CobrancaVexatoria="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#">
+    <owl:Ontology rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao">
+        <owl:imports rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ehAssociadoA -->
+
+    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ehAssociadoA">
+        <owl:inverseOf rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#temPreSituação -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#temPreSituação">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#partiuDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#partiuDe"/>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temNexoCausal -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temNexoCausal"/>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado -->
+
+    <owl:ObjectProperty rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#temObjetoViolado"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#DanoCivel -->
+
+    <rdf:Description rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#DanoCivel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#ocorreu"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lesao"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#temEvidenciaEm"/>
+                                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#Documento"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#envolve"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoLegal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#Honra -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#Honra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#exercicioExcessivoDeDireitoMaterial -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_CobrancaVexatoria#exercicioExcessivoDeDireitoMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Lei"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#Moral -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#Moral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#ObjetoMoral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#NegativacaoIndevida -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#NegativacaoIndevida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Situacao"/>
+        <OntoDano:envolve rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#Moral"/>
+        <OntoDano:ocorreu rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#lesaoMoralINREPSA"/>
+        <OntoDano:temEvidenciaEm rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#debitosNaoComprovados"/>
+        <OntoDano:temPósSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#lesaoMoralINREPSA"/>
+        <OntoDano_CobrancaVexatoria:partiuDe rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#bancoBradesco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#Waldenice -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#Waldenice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Vitima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#atitudeNegligencia -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#atitudeNegligencia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Negligencia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#bancoBradesco -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#bancoBradesco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AgenteAtivo"/>
+        <OntoDano:ageCom rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#atitudeNegligencia"/>
+        <OntoDano:comete rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#inscricaoSERASA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#debitosNaoComprovados -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#debitosNaoComprovados">
+        <rdf:type rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano#Documento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#inscricaoSERASA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#inscricaoSERASA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#AtoIlicito"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#Ação"/>
+        <OntoDano:temPósSituação rdf:resource="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#NegativacaoIndevida"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#lesaoMoralINREPSA -->
+
+    <owl:NamedIndividual rdf:about="http://www.cin.ufpe.br/~jeas/ontologias/2019/OntoDano_Negativacao#lesaoMoralINREPSA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jean/ontologies/2019/1/untitled-ontology-12#LesaoMoral"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
